@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radinka Alifasya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="raiden.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card" data-tilt>
+            <img src="https://cdn.discordapp.com/avatars/802424434807144449/1afd4576ad64889da6cd72a792bc5210.png?size=1024">   <!-- You can change progile picture from here -->
+            <h2>Radinka Alifasya</h2> <!-- Update your name-->
+            <p>IP: 146.70.65.11</p> <!-- Write headline here -->
+            <div class="links">
+                <a href="https://twitter.com/radincuyy" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670211.png"></a>
+                <a href="https://instagram.com/radincuyy" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png"></a> <!-- add your github profile link-->
+                <a href="https://facebook.com/radincuyy" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png"></a> <!-- add your LinkedIn profile link -->
+                <a href="https://www.youtube.com/channel/UC1SfUmCtmAAoMurcjab-g3A" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670209.png"></a>
+            </div>
+            <div class="audio-controls">
+                <audio id="my-audio" loop src="https://cdn.discordapp.com/attachments/891573844765204536/1093206470335668335/y2mate.com_-_Speaker_Knockerz_Dap_You_Up_Audio_Explicit_MTTM2.mp3"></audio>
+                <a href="mailto:radinka.alifasya@gmail.com" class="btn">Contact me</a>
+                <button id="play-btn" onclick="toggleAudio()">Play Audio</button>
+              </div>
+        </div>
+    </div>
+</div>
+    
+
+    <script src="vanilla-tilt.js"></script>
+    <script>
+        function toggleAudio() {
+          let audio = document.getElementById("my-audio");
+          let button = document.getElementById("play-btn");
+          if (audio.paused) {
+            audio.play();
+            button.innerHTML = "Pause Audio";
+          } else {
+            audio.pause();
+            button.innerHTML = "Play Audio";
+          }
+        }
+      </script>
+
+</body>
+</html>
