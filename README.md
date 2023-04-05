@@ -4,4 +4,4 @@
 # Profile-Card Template
 This repo will help you to create your profile card. Here below is the preview of the profile card. You can play around with the designs, backgrounds and colors.
 
-![github](https://user-images.githubusercontent.com/87236107/193006036-788e6cbe-650f-4ea4-b730-ac30b5f8b9f3.png)
+https://cdn.discordapp.com/attachments/891573844765204536/1093214059287027825/Screenshot_56.png
