@@ -29,20 +29,25 @@
 </div>
     
 
-    <script src="vanilla-tilt.js"></script>
+     <script src="vanilla-tilt.js"></script>
     <script>
         function toggleAudio() {
-          let audio = document.getElementById("my-audio");
-          let button = document.getElementById("play-btn");
-          if (audio.paused) {
-            audio.play();
-            button.innerHTML = "Pause Audio";
-          } else {
-            audio.pause();
-            button.innerHTML = "Play Audio";
-          }
+            let audio = document.getElementById("my-audio");
+            let button = document.getElementById("play-btn");
+            if (audio.paused) {
+                audio.play();
+                button.innerHTML = "Pause Audio";
+            } else {
+                audio.pause();
+                button.innerHTML = "Play Audio";
+            }
         }
-      </script>
+
+        function changeVolume(value) {
+            let audio = document.getElementById("my-audio");
+            audio.volume = value;
+        }
+    </script>
 
 </body>
 </html>
