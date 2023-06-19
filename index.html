@@ -5,6 +5,13 @@
     <title>Radinka Alifasya</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="raiden.ico" type="image/x-icon">
+    <style>
+        /* Menambahkan transition pada volume-slider */
+        .volume-slider input[type="range"] {
+            -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+    </style>
 </head>
 <body>
     
@@ -30,7 +37,7 @@
         </div>
     </div>
 
-    <script src="vanilla-tilt.js"></script>
+     <script src="vanilla-tilt.js"></script>
     <script>
         function toggleAudio() {
             let audio = document.getElementById("my-audio");
@@ -48,6 +55,14 @@
             let audio = document.getElementById("my-audio");
             audio.volume = value;
         }
+
+        // Inisialisasi Vanilla Tilt
+        VanillaTilt.init(document.querySelector(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.5,
+        });
     </script>
 </body>
 </html>
