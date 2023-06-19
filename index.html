@@ -38,7 +38,17 @@
     </div>
 
      <script src="vanilla-tilt.js"></script>
+    <script src="https://unpkg.com/input-range-slider@1.1.0/dist/input-range-slider.min.js"></script>
     <script>
+        // Inisialisasi slider
+        var volumeSlider = document.getElementById("volume-slider");
+        InputRangeSlider(volumeSlider, {
+            tooltip: false,
+            labels: false,
+            animation: true,
+            tooltipAnimation: false
+        });
+
         function toggleAudio() {
             let audio = document.getElementById("my-audio");
             let button = document.getElementById("play-btn");
@@ -55,8 +65,8 @@
             let audio = document.getElementById("my-audio");
             audio.volume = value;
         }
-
-        // Inisialisasi Vanilla Tilt
+    </script>
+    <script>
         VanillaTilt.init(document.querySelector(".card"), {
             max: 25,
             speed: 400,
