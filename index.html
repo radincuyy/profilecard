@@ -10,26 +10,27 @@
     
     <div class="container">
         <div class="card" data-tilt>
-            <img src="https://cdn.discordapp.com/avatars/802424434807144449/cae6615af1fb376d786c8a2f8dc7690a.png?size=1024">   <!-- You can change progile picture from here -->
-            <h2>Radinka Alifasya</h2> <!-- Update your name-->
-            <p>IP: 146.70.65.11</p> <!-- Write headline here -->
+            <img src="https://cdn.discordapp.com/avatars/802424434807144449/cae6615af1fb376d786c8a2f8dc7690a.png?size=1024">
+            <h2>Radinka Alifasya</h2>
+            <p>IP: 146.70.65.11</p>
             <div class="links">
                 <a href="https://twitter.com/radincuyy" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670211.png"></a>
-                <a href="https://instagram.com/radincuyy" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png"></a> <!-- add your github profile link-->
-                <a href="https://facebook.com/radincuyy" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png"></a> <!-- add your LinkedIn profile link -->
+                <a href="https://instagram.com/radincuyy" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3955/3955024.png"></a>
+                <a href="https://facebook.com/radincuyy" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png"></a>
                 <a href="https://www.youtube.com/channel/UC1SfUmCtmAAoMurcjab-g3A" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670209.png"></a>
             </div>
             <div class="audio-controls">
                 <audio id="my-audio" loop src="https://cdn.discordapp.com/attachments/891573844765204536/1120031658876338247/y2mate.com_-_FIFTY_FIFTY_Lovin_Me_Official_MV.mp3"></audio>
+                <div class="volume-slider">
+                    <input type="range" min="0" max="1" step="0.1" value="1" id="volume-slider" onchange="changeVolume(this.value)">
+                </div>
                 <a href="mailto:radinka.alifasya@gmail.com" class="btn">Contact me</a>
                 <button id="play-btn" onclick="toggleAudio()">Play Audio</button>
-              </div>
+            </div>
         </div>
     </div>
-</div>
-    
 
-     <script src="vanilla-tilt.js"></script>
+    <script src="vanilla-tilt.js"></script>
     <script>
         function toggleAudio() {
             let audio = document.getElementById("my-audio");
@@ -48,6 +49,5 @@
             audio.volume = value;
         }
     </script>
-
 </body>
 </html>
