@@ -4,14 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Radinka Alifasya</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="raiden.ico" type="image/x-icon">
-    <style>
-        /* Menambahkan transition pada volume-slider */
-        .volume-slider input[type="range"] {
-            -webkit-transition: all 0.3s ease;
-            transition: all 0.3s ease;
-        }
-    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     
@@ -26,46 +19,33 @@
                 <a href="https://facebook.com/radincuyy" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png"></a>
                 <a href="https://www.youtube.com/channel/UC1SfUmCtmAAoMurcjab-g3A" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3670/3670209.png"></a>
             </div>
-            <div class="audio-controls">
-                <audio id="my-audio" loop src="https://cdn.discordapp.com/attachments/891573844765204536/1122010054732828712/y2mate.com_-_Dj_lond"></audio>
-                <div class="volume-slider">
-                    <input type="range" min="0" max="1" step="0.1" value="1" id="volume-slider" onchange="changeVolume(this.value)">
-                </div>
-                <a href="mailto:radinka.alifasya@gmail.com" class="btn">Contact me</a>
-                <button id="play-btn" onclick="toggleAudio()">Play Audio</button>
+            <div class="top-bar">
+
+            </div>
+            <div class="song-details">
+                <p class="name">Alone (prod. RipSquad)</p>
+                <p class="artist">Chief Keef</p>
+            </div>
+            <div class="progress-area">
+                <div class="progress-bar"></div>
+            </div>
+            <div>
+                <div class="audio-controls">
+                    <audio id="my-audio" loop src="https://cdn.discordapp.com/attachments/891573844765204536/1122545871083536434/y2mate.com_-_Chief_Keef_Alone_prod_RipSquad.mp3"></audio>
             </div>
         </div>
+    <div class="controls">
+        <i id="repeat-plist" class="material-icons">repeat</i>
+        <i id="prev" class="material-icons">skip_previous</i>
+        <div class="play-pause">
+            <i class="material-icons">play_arrow</i>
+        </div>
+        <i id="next" class="material-icons">skip_next</i>
+        <i id="more-music" class="material-icons">queue_music</i>
     </div>
-
-     <script src="vanilla-tilt.js"></script>
-    <script src="https://unpkg.com/input-range-slider@1.1.0/dist/input-range-slider.min.js"></script>
-    <script>
-        // Inisialisasi slider
-        var volumeSlider = document.getElementById("volume-slider");
-        InputRangeSlider(volumeSlider, {
-            tooltip: false,
-            labels: false,
-            animation: true,
-            tooltipAnimation: false
-        });
-
-        function toggleAudio() {
-            let audio = document.getElementById("my-audio");
-            let button = document.getElementById("play-btn");
-            if (audio.paused) {
-                audio.play();
-                button.innerHTML = "Pause Audio";
-            } else {
-                audio.pause();
-                button.innerHTML = "Play Audio";
-            }
-        }
-
-        function changeVolume(value) {
-            let audio = document.getElementById("my-audio");
-            audio.volume = value;
-        }
-    </script>
+    
+    <script src="script.js"></script>
+    <script src="vanilla-tilt.js"></script>
     <script>
         VanillaTilt.init(document.querySelector(".card"), {
             max: 25,
@@ -73,9 +53,6 @@
             glare: true,
             "max-glare": 0.5,
         });
-    </script>
-</body>
-</html>
     </script>
 </body>
 </html>
