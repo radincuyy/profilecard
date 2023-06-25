@@ -81,8 +81,10 @@ progressArea.addEventListener('click', function(event) {
 });
 
 let isDragging = false;
-progressArea.addEventListener('mousedown', function() {
-    isDragging = true;
+progressArea.addEventListener('mousedown', function(event) {
+    if (event.target === progressArea) {
+        isDragging = true;
+    }
 });
 
 progressArea.addEventListener('mouseup', function() {
