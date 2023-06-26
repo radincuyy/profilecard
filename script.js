@@ -5,6 +5,8 @@ const progressArea = document.querySelector('.progress-area');
 const songDetails = document.querySelector('.song-details');
 const repeatButton = document.getElementById('repeat-plist');
 const moreMusicButton = document.getElementById('more-music');
+const timestampLeft = document.querySelector('.timestamp.left'); // Timestamp element for left side
+const timestampRight = document.querySelector('.timestamp.right'); // Timestamp element for right side
 
 let isPlaying = false;
 let currentSongIndex = 0;
@@ -70,6 +72,17 @@ audioPlayer.addEventListener('timeupdate', function() {
     const duration = audioPlayer.duration;
     const progressPercent = (currentTime / duration) * 100;
     progressBar.style.width = progressPercent + '%';
+
+    const currentMinutes = Math.floor(currentTime / 60);
+    const currentSeconds = Math.floor(currentTime % 60);
+    const durationMinutes = Math.floor(duration / 60);
+    const durationSeconds = Math.floor(duration % 60);
+
+    const currentTimeStamp = `${currentMinutes}:${currentSeconds.toString().padStart(2, '0')}`;
+    const durationTimeStamp = `${durationMinutes}:${durationSeconds.toString().padStart(2, '0')}`;
+
+    timestampLeft.textContent = currentTimeStamp;
+    timestampRight.textContent = durationTimeStamp;
 });
 
 progressArea.addEventListener('click', function(event) {
