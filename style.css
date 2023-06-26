@@ -197,3 +197,22 @@
     -webkit-text-fill-color: transparent;
     position: absolute;
 }
+
+.progress-area {
+    position: relative;
+}
+  
+.timestamp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 7px;
+}
+  
+.timestamp.right {
+    left: auto;
+    right: 0;
+    margin-top: 7px;
+}
