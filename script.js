@@ -17,6 +17,11 @@ const songs = [
         source: 'https://cdn.discordapp.com/attachments/891573844765204536/1124368896737165402/y2mate.com_-_Khalid_Better_Official_Video.mp3'
     },
     {
+        name: 'Hate Myself',
+        artist: 'NF',
+        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1124373616335802509/y2mate.com_-_NF_Hate_Myself_Audio.mp3'
+    },
+    {
         name: 'Scenario',
         artist: 'Pop Smoke',
         source: 'https://cdn.discordapp.com/attachments/891573844765204536/1122549895807647764/y2mate.com_-_Pop_Smoke_Scenario_Official_Audio.mp3'
