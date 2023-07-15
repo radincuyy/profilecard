@@ -12,9 +12,9 @@ let isPlaying = false;
 let currentSongIndex = 0;
 const songs = [
     {
-        name: 'Better',
-        artist: 'Khalid',
-        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1124368896737165402/y2mate.com_-_Khalid_Better_Official_Video.mp3'
+        name: 'To Feel Alive',
+        artist: 'IAMEVE',
+        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1129807739338620978/y2mate.com_-_To_Feel_Alive.mp3'
     },
     {
         name: 'Hate Myself',
@@ -22,9 +22,9 @@ const songs = [
         source: 'https://cdn.discordapp.com/attachments/891573844765204536/1124373616335802509/y2mate.com_-_NF_Hate_Myself_Audio.mp3'
     },
     {
-        name: 'Scenario',
-        artist: 'Pop Smoke',
-        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1122549895807647764/y2mate.com_-_Pop_Smoke_Scenario_Official_Audio.mp3'
+        name: 'Better',
+        artist: 'Khalid',
+        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1124368896737165402/y2mate.com_-_Khalid_Better_Official_Video.mp3'
     },
     {
         name: 'Alone (prod. RipSquad)',
