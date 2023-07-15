@@ -45,9 +45,11 @@
 
 .card img {
     width: 140px;
+    height: 140px; /* Tambahkan tinggi gambar */
     border-radius: 50%;
     font-weight: 600;
     margin-bottom: 15px;
+    object-fit: cover; /* Tambahkan properti object-fit */
 }
 
 .card p {
