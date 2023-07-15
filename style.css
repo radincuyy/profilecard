@@ -43,7 +43,7 @@
     backdrop-filter: blur(5px);
 }
 
-.card img {
+.card .main-image {
     width: 140px;
     height: 140px; /* Tambahkan tinggi gambar */
     border-radius: 50%;
