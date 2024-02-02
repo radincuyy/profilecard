@@ -12,9 +12,9 @@ let isPlaying = false;
 let currentSongIndex = 0;
 const songs = [
     {
-        name: 'To Feel Alive',
-        artist: 'IAMEVE',
-        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1129807739338620978/y2mate.com_-_To_Feel_Alive.mp3'
+        name: 'It has to be this way',
+        artist: 'Metal Gear OST',
+        source: 'https://cdn.discordapp.com/attachments/1094130715454615572/1202949949457825802/y2mate.com_-_Metal_Gear_Rising_Revengeance_OST_It_Has_To_Be_This_Way_Extended.mp3?ex=65cf5171&is=65bcdc71&hm=e3b7fd31389e72bd2c71e7d226b6598f292d8443e126fc500f40cf84127b616d&'
     },
     {
         name: 'Hate Myself',
