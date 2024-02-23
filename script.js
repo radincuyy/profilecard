@@ -12,9 +12,9 @@ let isPlaying = false;
 let currentSongIndex = 0;
 const songs = [
     {
-        name: 'It has to be this way',
-        artist: 'Metal Gear OST',
-        source: 'https://cdn.discordapp.com/attachments/1094130715454615572/1202949949457825802/y2mate.com_-_Metal_Gear_Rising_Revengeance_OST_It_Has_To_Be_This_Way_Extended.mp3?ex=65cf5171&is=65bcdc71&hm=e3b7fd31389e72bd2c71e7d226b6598f292d8443e126fc500f40cf84127b616d&'
+        name: 'wokeuplikethis',
+        artist: 'Playboi Carti',
+        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210471791911510086/y2mate.com_-_Playboi_Carti_wokeuplikethis_ft_Lil_Uzi_Vert_Official_Video.mp3?ex=65eaaeb4&is=65d839b4&hm=8e8a8be60139dfce49d291d2877ad4a1545ce689f38cf357da3bcbea0d667c72&'
     },
     {
         name: 'Hate Myself',
