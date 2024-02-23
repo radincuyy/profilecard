@@ -17,24 +17,24 @@ const songs = [
         source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210471791911510086/y2mate.com_-_Playboi_Carti_wokeuplikethis_ft_Lil_Uzi_Vert_Official_Video.mp3?ex=65eaaeb4&is=65d839b4&hm=8e8a8be60139dfce49d291d2877ad4a1545ce689f38cf357da3bcbea0d667c72&'
     },
     {
-        name: 'Hate Myself',
-        artist: 'NF',
-        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1124373616335802509/y2mate.com_-_NF_Hate_Myself_Audio.mp3'
+        name: 'No Role Modelz',
+        artist: 'J. Cole',
+        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210476843631779871/y2mate.com_-_No_Role_Modelz.mp3?ex=65eab369&is=65d83e69&hm=f40f868136dacc1757f4fa803b6ae42aef7770112abeaf8450f3930cfb14b275&'
     },
     {
-        name: 'Better',
-        artist: 'Khalid',
-        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1124368896737165402/y2mate.com_-_Khalid_Better_Official_Video.mp3'
+        name: 'SICKO MODE',
+        artist: 'Travis Scott',
+        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210477802294476881/y2mate.com_-_Travis_Scott_SICKO_MODE_Audio.mp3?ex=65eab44d&is=65d83f4d&hm=b16841ac60c659324df3d9a7de998e419b2deb3cde383afc46e420cfc3ef453d&'
     },
     {
-        name: 'Alone (prod. RipSquad)',
-        artist: 'Chief Keef',
-        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1122545871083536434/y2mate.com_-_Chief_Keef_Alone_prod_RipSquad.mp3'
+        name: 'Up Next',
+        artist: 'Robin Banks',
+        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210477801988169798/y2mate.com_-_Up_Next.mp3?ex=65eab44d&is=65d83f4d&hm=ae4e6dc01983a9d4c78a182d7326a6baf8c773ceb93c3c1421c266e13e79d476&'
     },
     {
-        name: 'Dont Believe Me',
-        artist: 'SD',
-        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1122555647632875620/y2mate.com_-_SD_Dont_Believe_Me_Official_Video.mp3'
+        name: 'The Race',
+        artist: 'Tay K',
+        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210478568270856253/y2mate.com_-_Tay_K_The_Race_Official_Audio.mp3?ex=65eab504&is=65d84004&hm=fc3383d235d6c8206f3dccc497ff07e1e1b0827476559ea4654ed513ab6257f8&'
     },
     // Nambah lagu
 ];
