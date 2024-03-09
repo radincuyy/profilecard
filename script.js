@@ -14,7 +14,7 @@ const songs = [
     {
         name: 'wokeuplikethis',
         artist: 'Playboi Carti',
-        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210471791911510086/y2mate.com_-_Playboi_Carti_wokeuplikethis_ft_Lil_Uzi_Vert_Official_Video.mp3?ex=65fd23b4&is=65eaaeb4&hm=0313a48f32bcf52593dc52fdfc2f3b0f3c79614065893afc2ebc3c668967823e&'
+        source: 'https://www.dropbox.com/scl/fi/g2ncbry0la6sj9bqq6a77/y2mate.com-Playboi-Carti-wokeuplikethis-ft-Lil-Uzi-Vert-Official-Video.mp3?rlkey=470tgzq4zd53nvc9p44lnhh02&dl=0'
     },
     {
         name: 'No Role Modelz',
