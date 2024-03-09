@@ -14,7 +14,7 @@ const songs = [
     {
         name: 'wokeuplikethis',
         artist: 'Playboi Carti',
-        source: 'https://drive.google.com/uc?export=download&id=17sKxfvyRJlH0neso18DiOtFSBeJUGwqm'
+        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210471791911510086/y2mate.com_-_Playboi_Carti_wokeuplikethis_ft_Lil_Uzi_Vert_Official_Video.mp3?ex=65fd23b4&is=65eaaeb4&hm=0313a48f32bcf52593dc52fdfc2f3b0f3c79614065893afc2ebc3c668967823e&'
     },
     {
         name: 'No Role Modelz',
@@ -24,17 +24,17 @@ const songs = [
     {
         name: 'SICKO MODE',
         artist: 'Travis Scott',
-        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210477802294476881/y2mate.com_-_Travis_Scott_SICKO_MODE_Audio.mp3?ex=65eab44d&is=65d83f4d&hm=b16841ac60c659324df3d9a7de998e419b2deb3cde383afc46e420cfc3ef453d&'
+        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210477802294476881/y2mate.com_-_Travis_Scott_SICKO_MODE_Audio.mp3?ex=65fd294d&is=65eab44d&hm=506e148dcb60a5ed24d732f0d3ccd934738accaea00d2418aa7c965334cfaec9&'
     },
     {
         name: 'Up Next',
         artist: 'Robin Banks',
-        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210477801988169798/y2mate.com_-_Up_Next.mp3?ex=65eab44d&is=65d83f4d&hm=ae4e6dc01983a9d4c78a182d7326a6baf8c773ceb93c3c1421c266e13e79d476&'
+        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210477801988169798/y2mate.com_-_Up_Next.mp3?ex=65fd294d&is=65eab44d&hm=064fa33268a6fef77d91cf4d9e199125dbf1071042f261f16b0ea408f273074f&'
     },
     {
         name: 'The Race',
         artist: 'Tay K',
-        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210478568270856253/y2mate.com_-_Tay_K_The_Race_Official_Audio.mp3?ex=65eab504&is=65d84004&hm=fc3383d235d6c8206f3dccc497ff07e1e1b0827476559ea4654ed513ab6257f8&'
+        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210478568270856253/y2mate.com_-_Tay_K_The_Race_Official_Audio.mp3?ex=65fd2a04&is=65eab504&hm=2ef66deee30b00bb134e8257953e08deb87c0ddc95bc9a1b9ef395c21b5600b6&'
     },
     // Nambah lagu
 ];
