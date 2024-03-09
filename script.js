@@ -14,7 +14,7 @@ const songs = [
     {
         name: 'wokeuplikethis',
         artist: 'Playboi Carti',
-        source: 'https://drive.usercontent.google.com/download?id=17sKxfvyRJlH0neso18DiOtFSBeJUGwqm&export=download&authuser=0&confirm=t&uuid=33335329-1ddc-42a8-8037-bc18f539146f&at=APZUnTUTfPwxtEAjcAIxGwHldeTc:1709996744856'
+        source: 'https://drive.google.com/file/d/17sKxfvyRJlH0neso18DiOtFSBeJUGwqm/view?usp=drive_link'
     },
     {
         name: 'No Role Modelz',
