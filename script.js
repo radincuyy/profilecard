@@ -14,7 +14,7 @@ const songs = [
     {
         name: 'wokeuplikethis',
         artist: 'Playboi Carti',
-        source: 'https://soundcloud.com/radinka-alifasya/playboi-carti-wokeuplikethis-ft-lil-uzi-vert-official-video/s-U0Igly83nLp?si=e9fc11b5893a4fb28d7410416420f3a0&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+        source: 'https://drive.usercontent.google.com/u/0/uc?id=17sKxfvyRJlH0neso18DiOtFSBeJUGwqm&export=download'
     },
     {
         name: 'No Role Modelz',
