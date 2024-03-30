@@ -12,29 +12,29 @@ let isPlaying = false;
 let currentSongIndex = 0;
 const songs = [
     {
-        name: 'wokeuplikethis',
-        artist: 'Playboi Carti',
-        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210471791911510086/y2mate.com_-_Playboi_Carti_wokeuplikethis_ft_Lil_Uzi_Vert_Official_Video.mp3?ex=65fd23b4&is=65eaaeb4&hm=0313a48f32bcf52593dc52fdfc2f3b0f3c79614065893afc2ebc3c668967823e&'
+        name: 'Heathens',
+        artist: 'Twenty One Pilots',
+        source: 'https://cdn.discordapp.xyz/attachments/891573844765204536/1223684451989459055/y2mate.com_-_Twenty_One_Pilots_HeathensStranger_Things_Studio_Version_UPDATED.mp3'
     },
     {
-        name: 'No Role Modelz',
-        artist: 'J. Cole',
-        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210476843631779871/y2mate.com_-_No_Role_Modelz.mp3?ex=65fd2869&is=65eab369&hm=a02224884258e9a6b0d18ff004524b04d48a1fbbe2e82726661677c121aae092&'
+        name: 'Lions',
+        artist: 'Lights',
+        source: 'https://cdn.discordapp.xyz/attachments/891573844765204536/1223684452736307270/y2mate.com_-_Lights_Lions_1.mp3'
     },
     {
-        name: 'SICKO MODE',
-        artist: 'Travis Scott',
-        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210477802294476881/y2mate.com_-_Travis_Scott_SICKO_MODE_Audio.mp3?ex=65fd294d&is=65eab44d&hm=506e148dcb60a5ed24d732f0d3ccd934738accaea00d2418aa7c965334cfaec9&'
+        name: 'To Feel Alive',
+        artist: 'IAMEVE',
+        source: 'https://cdn.discordapp.xyz/attachments/891573844765204536/1129807739338620978/y2mate.com_-_To_Feel_Alive.mp3'
     },
     {
-        name: 'Up Next',
-        artist: 'Robin Banks',
-        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210477801988169798/y2mate.com_-_Up_Next.mp3?ex=65fd294d&is=65eab44d&hm=064fa33268a6fef77d91cf4d9e199125dbf1071042f261f16b0ea408f273074f&'
+        name: 'give it back',
+        artist: 'co shu nie',
+        source: 'https://cdn.discordapp.xyz/attachments/891573844765204536/1223684453075783700/y2mate.com_-_Co_shu_Nie_give_it_back_Official_Video_TV2_.mp3'
     },
     {
-        name: 'The Race',
-        artist: 'Tay K',
-        source: 'https://cdn.discordapp.com/attachments/891573844765204536/1210478568270856253/y2mate.com_-_Tay_K_The_Race_Official_Audio.mp3?ex=65fd2a04&is=65eab504&hm=2ef66deee30b00bb134e8257953e08deb87c0ddc95bc9a1b9ef395c21b5600b6&'
+        name: 'secret base',
+        artist: 'Anohana ED',
+        source: 'https://cdn.discordapp.xyz/attachments/891573844765204536/1223684453629693952/y2mate.com_-_secret_base_Kimi_ga_Kureta_Mono_10_years_after_ver_AnoHana_ED_Lyrics.mp3'
     },
     // Nambah lagu
 ];
