@@ -14,7 +14,7 @@ const songs = [
     {
         name: 'Heathens',
         artist: 'Twenty One Pilots',
-        source: 'https://cdn.discordapp.xyz/attachments/891573844765204536/1223684451989459055/y2mate.com_-_Twenty_One_Pilots_HeathensStranger_Things_Studio_Version_UPDATED.mp3'
+        source: 'https://cdn.discordapp.xyz/attachments/891573844765204536/1223687823039660092/y2mate.com_-_Twenty_One_PilotsStranger_Things_Heathens.mp3'
     },
     {
         name: 'Lions',
