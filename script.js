@@ -12,29 +12,29 @@ let isPlaying = false;
 let currentSongIndex = 0;
 const songs = [
     {
-        name: 'Heathens',
-        artist: 'Twenty One Pilots',
-        source: 'https://cdn.discordapp.xyz/attachments/891573844765204536/1223687823039660092/y2mate.com_-_Twenty_One_PilotsStranger_Things_Heathens.mp3'
+        name: 'Aint My Fault',
+        artist: 'Zara Larsson',
+        source: 'Audio/Audio 1.mp3'
     },
     {
         name: 'Lions',
         artist: 'Lights',
-        source: 'https://cdn.discordapp.xyz/attachments/891573844765204536/1223684452736307270/y2mate.com_-_Lights_Lions_1.mp3'
+        source: 'Audio/Audio 2.mp3'
     },
     {
         name: 'To Feel Alive',
         artist: 'IAMEVE',
-        source: 'https://cdn.discordapp.xyz/attachments/891573844765204536/1129807739338620978/y2mate.com_-_To_Feel_Alive.mp3'
+        source: 'Audio/Audio 3.mp3'
     },
     {
         name: 'give it back',
         artist: 'co shu nie',
-        source: 'https://cdn.discordapp.xyz/attachments/891573844765204536/1223684453075783700/y2mate.com_-_Co_shu_Nie_give_it_back_Official_Video_TV2_.mp3'
+        source: 'Audio/Audio 4.mp3'
     },
     {
         name: 'secret base',
         artist: 'Anohana ED',
-        source: 'https://cdn.discordapp.xyz/attachments/891573844765204536/1223684453629693952/y2mate.com_-_secret_base_Kimi_ga_Kureta_Mono_10_years_after_ver_AnoHana_ED_Lyrics.mp3'
+        source: 'Audio/Audio 5.mp3'
     },
     // Nambah lagu
 ];
