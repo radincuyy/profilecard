@@ -12,8 +12,8 @@ let isPlaying = false;
 let currentSongIndex = 0;
 const songs = [
     {
-        name: 'Aint My Fault',
-        artist: 'Zara Larsson',
+        name: 'Bow Down',
+        artist: 'I Prevail',
         source: 'Audio/Audio 1.mp3'
     },
     {
